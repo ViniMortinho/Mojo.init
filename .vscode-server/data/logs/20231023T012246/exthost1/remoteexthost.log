@@ -1,0 +1,121 @@
+2023-10-23 01:22:48.943 [info] Extension host with pid 815 started
+2023-10-23 01:22:48.983 [info] Lock '/home/vini_andrade/.vscode-server/data/User/workspaceStorage/9fd30457d38309c5b451bdb1a0646905/vscode.lock': Lock acquired.
+2023-10-23 01:22:49.045 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-23 01:22:49.213 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-10-23 01:22:49.319 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-23 01:22:49.463 [info] Eager extensions activated
+2023-10-23 01:22:49.463 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 01:22:49.463 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 01:22:50.733 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-10-23 01:23:35.707 [info] ExtensionService#_doActivateExtension modular-mojotools.vscode-mojo, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 01:24:00.376 [info] Extension host terminating: received terminate message from renderer
+2023-10-23 01:24:00.377 [info] Lock '/home/vini_andrade/.vscode-server/data/User/workspaceStorage/9fd30457d38309c5b451bdb1a0646905/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-23 01:24:00.412 [error] Canceled: Canceled
+	at new m (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
+	at i.U (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
+	at M.<computed>.j.charCodeAt.M.<computed> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
+	at n.g (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83747)
+	at n.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at b.registerCommand.description (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:82506)
+	at n.h (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:84283)
+	at n.g (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83278)
+	at n.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at Object.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:141:21282)
+	at s.D [as value] (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1312800)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.A (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1328588)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1333429
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1333415)
+	at w.<anonymous> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3521)
+	at w.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at w.<anonymous> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1314812)
+	at w.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at o (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at s.cb (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:9846)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:7796
+	at Array.map (<anonymous>)
+	at s.Y (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:7784)
+	at s.terminate (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:8054)
+	at o.terminate (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:141:1513)
+	at l (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:154:9801)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:154:7848)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at r.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at s.acceptChunk (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:19173)
+	at c.acceptFrame (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:18979)
+	at a.n (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:17612)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:14959
+	at Socket.f (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:12873)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-10-23 01:24:00.412 [error] Canceled: Canceled
+	at new m (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
+	at i.U (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
+	at M.<computed>.j.charCodeAt.M.<computed> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
+	at n.g (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83747)
+	at n.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at b.registerCommand.description (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:82506)
+	at n.h (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:84283)
+	at n.g (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83278)
+	at n.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at Object.executeCommand (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:141:21282)
+	at set b [as b] (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/github/dist/extension.js:2:714415)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/github/dist/extension.js:2:715056
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1402040)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.A (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1328588)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1333429
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1333415)
+	at w.<anonymous> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3521)
+	at w.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at w.<anonymous> (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/main.js:2:1314812)
+	at w.dispose (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at o (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at s.cb (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:9846)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:7796
+	at Array.map (<anonymous>)
+	at s.Y (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:7784)
+	at s.terminate (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:137:8054)
+	at o.terminate (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:141:1513)
+	at l (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:154:9801)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:154:7848)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at r.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at s.acceptChunk (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+	at s.value (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at c.z (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:19173)
+	at c.acceptFrame (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:18979)
+	at a.n (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:17612)
+	at /home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:14959
+	at Socket.f (/home/vini_andrade/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/workbench/api/node/extensionHostProcess.js:151:12873)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-10-23 01:24:00.413 [info] Extension host with pid 815 exiting with code 0

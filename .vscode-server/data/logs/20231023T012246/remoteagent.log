@@ -1,0 +1,69 @@
+2023-10-23 01:22:46.387 [info] 
+
+
+
+
+2023-10-23 01:22:46.387 [info] Extension host agent started.
+2023-10-23 01:22:46.396 [info] Started initializing default profile extensions in extensions installation folder. file:///home/vini_andrade/.vscode-server/extensions
+2023-10-23 01:22:46.416 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/vini_andrade/.vscode-server/extensions
+2023-10-23 01:22:46.607 [info] [127.0.0.1][eedec54d][ManagementConnection] New connection established.
+2023-10-23 01:22:46.645 [info] Installing extensions...
+2023-10-23 01:22:46.787 [info] [127.0.0.1][b0637752][ExtensionHostConnection] New connection established.
+2023-10-23 01:22:46.791 [info] [127.0.0.1][b0637752][ExtensionHostConnection] <815> Launched Extension Host Process.
+2023-10-23 01:22:47.039 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2023-10-23 01:22:47.837 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:47.888 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.348 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.464 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.2023101109: ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.472 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.2023101109
+2023-10-23 01:22:48.473 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.481 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.516 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2023-10-23 01:22:48.517 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.83.2023101109 was successfully installed.
+2023-10-23 01:23:34.160 [info] Getting Manifest... modular-mojotools.vscode-mojo
+2023-10-23 01:23:34.235 [info] Installing extension: modular-mojotools.vscode-mojo
+2023-10-23 01:23:35.200 [warning] Extension signature verification failed with error 'ENOENT': modular-mojotools.vscode-mojo
+2023-10-23 01:23:35.580 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/modular-mojotools.vscode-mojo-0.4.0: modular-mojotools.vscode-mojo
+2023-10-23 01:23:35.596 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/modular-mojotools.vscode-mojo-0.4.0
+2023-10-23 01:23:35.597 [info] Extracting extension completed. modular-mojotools.vscode-mojo
+2023-10-23 01:23:35.606 [info] Extension installed successfully: modular-mojotools.vscode-mojo
+2023-10-23 01:23:52.554 [info] Getting Manifest... ms-toolsai.jupyter
+2023-10-23 01:23:52.619 [info] Installing extension: ms-toolsai.jupyter
+2023-10-23 01:23:52.860 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-10-23 01:23:52.903 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-10-23 01:23:52.951 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-10-23 01:23:52.997 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-10-23 01:23:53.068 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-10-23 01:23:53.069 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-10-23 01:23:53.069 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-10-23 01:23:53.069 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-10-23 01:23:53.546 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-keymap
+2023-10-23 01:23:53.550 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-cell-tags
+2023-10-23 01:23:53.566 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2023-10-23 01:23:53.575 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-10-23 01:23:53.577 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-10-23 01:23:53.588 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8: ms-toolsai.vscode-jupyter-cell-tags
+2023-10-23 01:23:53.594 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-10-23 01:23:53.595 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-10-23 01:23:53.936 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-slideshow
+2023-10-23 01:23:53.960 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5: ms-toolsai.vscode-jupyter-slideshow
+2023-10-23 01:23:53.971 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-10-23 01:23:53.972 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-10-23 01:23:54.292 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-renderers
+2023-10-23 01:23:54.548 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17: ms-toolsai.jupyter-renderers
+2023-10-23 01:23:54.557 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17
+2023-10-23 01:23:54.558 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-10-23 01:23:55.697 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter
+2023-10-23 01:23:56.004 [info] Extracted extension to file:///home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-2023.9.1102792234-linux-x64: ms-toolsai.jupyter
+2023-10-23 01:23:56.016 [info] Renamed to /home/vini_andrade/.vscode-server/extensions/ms-toolsai.jupyter-2023.9.1102792234-linux-x64
+2023-10-23 01:23:56.020 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-10-23 01:23:56.028 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-10-23 01:23:56.028 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-10-23 01:23:56.028 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-10-23 01:23:56.028 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-10-23 01:23:56.028 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-10-23 01:24:00.382 [info] [127.0.0.1][eedec54d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-23 01:24:00.419 [info] [127.0.0.1][b0637752][ExtensionHostConnection] <815> Extension Host Process exited with code: 0, signal: null.
+2023-10-23 01:24:01.715 [info] [127.0.0.1][b816c0b4][ManagementConnection] New connection established.
+2023-10-23 01:24:01.952 [info] [127.0.0.1][497ddd82][ExtensionHostConnection] New connection established.
+2023-10-23 01:24:01.957 [info] [127.0.0.1][497ddd82][ExtensionHostConnection] <1226> Launched Extension Host Process.

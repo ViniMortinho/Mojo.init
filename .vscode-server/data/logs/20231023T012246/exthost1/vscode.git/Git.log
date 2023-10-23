@@ -1,0 +1,33 @@
+2023-10-23 01:22:50.943 [info] Nível de log: Info
+2023-10-23 01:22:50.943 [info] Validando o git encontrado em: git
+2023-10-23 01:22:50.943 [info] Usando git ''2.34.1'' de ''git''
+2023-10-23 01:22:50.943 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-23 01:22:50.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-23 01:22:50.943 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-23 01:22:50.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-23 01:22:50.943 [info] > git rev-parse --show-toplevel [0ms]
+2023-10-23 01:22:50.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-23 01:22:50.949 [info] > git rev-parse --show-toplevel [0ms]
+2023-10-23 01:22:50.953 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-10-23 01:22:50.964 [info] Open repository: /home/vini_andrade/mojo
+2023-10-23 01:22:50.973 [info] > git config --get commit.template [1ms]
+2023-10-23 01:22:50.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-23 01:22:50.991 [info] > git status -z -uall [8ms]
+2023-10-23 01:22:50.998 [info] > git config --get commit.template [0ms]
+2023-10-23 01:22:51.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-23 01:22:51.013 [info] > git status -z -uall [7ms]
+2023-10-23 01:22:51.375 [info] > git fetch [412ms]
+2023-10-23 01:22:51.379 [info] > git config --get commit.template [1ms]
+2023-10-23 01:22:51.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-23 01:22:51.391 [info] > git status -z -uall [7ms]
+2023-10-23 01:22:51.489 [info] > git check-ignore -v -z --stdin [0ms]
+2023-10-23 01:22:52.561 [info] > git config --get commit.template [2ms]
+2023-10-23 01:22:52.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-10-23 01:22:52.575 [info] > git status -z -uall [7ms]
+2023-10-23 01:23:35.675 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-23 01:23:35.675 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-23 01:23:54.640 [warning] Failed to get repository realpath for: "/home/vini_andrade/.vscode-server/extensions/.f38008b0-74a9-4aaa-bb67-8ca83a2e0be9/". Error: ENOENT: no such file or directory, realpath '/home/vini_andrade/.vscode-server/extensions/.f38008b0-74a9-4aaa-bb67-8ca83a2e0be9/'
+2023-10-23 01:23:54.647 [warning] Failed to get repository realpath for: "/home/vini_andrade/.vscode-server/extensions/.6f888e5a-7712-41bc-a60e-8dceb3586e95/". Error: ENOENT: no such file or directory, realpath '/home/vini_andrade/.vscode-server/extensions/.6f888e5a-7712-41bc-a60e-8dceb3586e95/'
+2023-10-23 01:23:56.183 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-23 01:23:56.183 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-23 01:23:56.546 [warning] Failed to get repository realpath for: "/home/vini_andrade/.vscode-server/extensions/.b21cf30d-b91f-4d96-9a8f-63baa2af5eb0/api/". Error: ENOENT: no such file or directory, realpath '/home/vini_andrade/.vscode-server/extensions/.b21cf30d-b91f-4d96-9a8f-63baa2af5eb0/api/'
